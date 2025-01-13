@@ -3,3 +3,22 @@
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  color: hsla(0, 0%, 0%, 0.75);
+  margin: 0;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.main-container {
+  background: linear-gradient(
+    145deg,
+    #d9eefd,
+    #b3dbf7
+  ); /* Subtle sky blue gradient */
+  border: 1px solid hsla(200, 50%, 80%, 0.5); /* Light blue border */
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow */
+}

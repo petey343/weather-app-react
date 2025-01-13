@@ -42,7 +42,7 @@ const weatherData = [
 
 function App() {
   return (
-    <>
+    <div className="main-container">
       <h1>Weather in Granville</h1>
       <WeatherCardContainer>
         {weatherData.map(({ id, time, description, icon, temp }) => (
@@ -55,7 +55,7 @@ function App() {
           />
         ))}
       </WeatherCardContainer>
-    </>
+    </div>
   );
 }
 
