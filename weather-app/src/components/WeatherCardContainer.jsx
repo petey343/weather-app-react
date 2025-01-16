@@ -1,18 +1,15 @@
 import PropTypes from "prop-types";
 
-import "./WeatherCardContainer.css";
-
 function WeatherCardContainer({ children }) {
-
-    return (
-        <div className="weather-card-container">
-            {children}
-        </div>
-    );
+  return (
+    <div className="container my-4">
+      <div className="row">{children}</div>
+    </div>
+  );
 }
 
 WeatherCardContainer.propTypes = {
-    children: PropTypes.node,
-  };
+  children: PropTypes.node,
+};
 
 export default WeatherCardContainer;
