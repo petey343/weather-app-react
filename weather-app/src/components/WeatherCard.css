@@ -43,3 +43,18 @@
   margin-left: auto; /* Push the icon to the center */
   margin-right: auto; /* Center it horizontally */
 }
+
+@media (max-width: 768px) {
+  .weather-card {
+    flex-direction: row;
+    max-width: 90%; /* Maintain readability on smaller screens */
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+  }
+
+  h1 {
+    margin-left: 0px;
+  }
+}

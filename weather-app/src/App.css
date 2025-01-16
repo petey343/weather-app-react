@@ -22,3 +22,9 @@ h1 {
   padding: 24px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow */
 }
+
+@media (max-width: 768px) {
+  h1 {
+    margin-left: 0;
+  }
+}
